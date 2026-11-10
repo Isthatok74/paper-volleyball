@@ -60,7 +60,7 @@ function ContentIconPanel(props: iconLinksProps): JSX.Element
 }
 
 const PanelContainer = styled.div`
-    width: min(100%, 960px, calc(100vw - 28px));
+    width: min(90%, 860px, calc(100vw - 28px));
     box-sizing: border-box;
     margin: 1.25rem auto 0;
 `

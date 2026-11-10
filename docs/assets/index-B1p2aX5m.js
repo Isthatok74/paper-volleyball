@@ -72,7 +72,7 @@ Please change the parent <Route path="${D}"> to <Route path="${D==="/"?"*":`${D}
         filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(57deg) brightness(107%) contrast(101%);
     `};
 `;function Sg(l){return _.jsx(_.Fragment,{children:_.jsx("a",{href:l.link,target:"_blank",rel:"noopener noreferrer",title:l.hover,children:l.children})})}function Tn(l){const i={src:l.image,alt:"Icon",height:l.height,title:l.hover};return l.link===""?_.jsx(pd,{...i}):_.jsx(_.Fragment,{children:_.jsx(Sg,{link:l.link,hover:l.hover,children:_.jsx(pd,{...i,$active:!0})})})}function kg(l){return _.jsxs(Cg,{children:[_.jsxs(Eg,{href:"https://go.freegiftstudio.ca/papervolleyball/discord/",target:"_blank",rel:"noopener noreferrer","aria-label":"Join the beta on Discord",children:[_.jsx(Rg,{src:pn.iconDiscord,alt:""}),_.jsxs(_g,{children:[_.jsx(Pg,{children:"Join the Beta!"}),_.jsx(Ng,{children:"Help test the game, share feedback, and play before release."})]}),_.jsxs(Lg,{children:["Sign up on Discord ",_.jsx("span",{"aria-hidden":"true",children:"→"})]})]}),_.jsxs(jg,{children:[_.jsxs(Tg,{children:[_.jsx(as,{children:"Wishlist it now!"}),_.jsx(cs,{children:"Choose your platform"}),_.jsxs(fs,{children:[_.jsx(zn,{children:_.jsx(Tn,{height:l.height,hover:"Wishlist it on Steam!",image:pn.iconSteam,link:"https://store.steampowered.com/app/5292050/Paper_Volleyball/"})}),_.jsx(zn,{children:_.jsx(Tn,{height:l.height,hover:"Google Play — coming soon!",image:pn.iconPlay,link:""})}),_.jsx(zn,{children:_.jsx(Tn,{height:l.height,hover:"Apple App Store — coming soon!",image:pn.iconApple,link:""})})]})]}),_.jsxs(ks,{children:[_.jsx(as,{children:"Follow me on socials!"}),_.jsx(cs,{children:"Updates, clips & dev support"}),_.jsxs(fs,{children:[_.jsx(zn,{children:_.jsx(Tn,{height:l.height,hover:"Subscribe on YouTube",image:pn.iconYoutube,link:"https://www.youtube.com/@PaperVolleyball"})}),_.jsx(zn,{children:_.jsx(Tn,{height:l.height,hover:"Follow me on Instagram!",image:pn.iconInstagram,link:"https://www.instagram.com/papervolleyball/"})}),_.jsx(zn,{children:_.jsx(Tn,{height:l.height,hover:"Buy me a coffee!",image:pn.iconCoffee,link:"https://buymeacoffee.com/freegiftstudio"})})]})]}),_.jsxs(ks,{children:[_.jsx(as,{children:"Business inquiries"}),_.jsx(cs,{children:"Get in touch by email"}),_.jsx(fs,{children:_.jsx(zn,{children:_.jsx(Tn,{height:l.height,hover:"Email me for business inquiries",image:pn.iconEmail,link:"mailto:papervolleyballdev@gmail.com"})})})]})]})]})}const Cg=we.div`
-    width: min(100%, 960px, calc(100vw - 28px));
+    width: min(90%, 860px, calc(100vw - 28px));
     box-sizing: border-box;
     margin: 1.25rem auto 0;
 `,Eg=we.a`
@@ -188,7 +188,7 @@ Please change the parent <Route path="${D}"> to <Route path="${D==="/"?"*":`${D}
     }
 `,zg=l=>_.jsx(Ig,{children:_.jsx("iframe",{width:"100%",height:"100%",src:`https://www.youtube.com/embed/${l.embedId}?autoplay=0&rel=0&vq=hd1080`,style:{border:"none",position:"absolute",top:0,left:0},allow:"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",allowFullScreen:!0,title:"Embedded youtube video"})}),Ig=we.div`
   width: 90%;
-  max-width: 800px;
+  max-width: 860px;
   aspect-ratio: 1920/1040;  /* This maintains the original dimensions of the video */
   margin: 0 auto;
   position: relative;
