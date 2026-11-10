@@ -1,12 +1,9 @@
-@font-face {
-  font-family: 'Shadows Into Light Two';
-  src: url('../fonts/ShadowsIntoLightTwo-Regular.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
 
 :root {
-  font-family: 'Shadows Into Light Two', 'Segoe UI', 'Arial';
-  letter-spacing: 2.5px;
-  line-height: 1.25;
+  font-family: 'Nunito', 'Segoe UI', 'Arial';
+  letter-spacing: 0.5px;
+  line-height: 1.4;
   margin: auto;
 
   color-scheme: light dark;

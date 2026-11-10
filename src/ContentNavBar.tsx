@@ -11,7 +11,6 @@ function ContentNavBar() : JSX.Element
       <NavUnorderedList>
         <NavBarItem><StatefulStyledNavLink to={RouteNames.HOME}>Home</StatefulStyledNavLink></NavBarItem>
         <NavBarItem><StatefulStyledNavLink to={RouteNames.ABOUT}>About</StatefulStyledNavLink></NavBarItem>
-        <NavBarItem><StatefulStyledNavLink to={RouteNames.CONTRIBUTE}>Contribute</StatefulStyledNavLink></NavBarItem>
       </NavUnorderedList>
     </nav>
   </>);
