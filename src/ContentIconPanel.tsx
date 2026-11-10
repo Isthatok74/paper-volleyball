@@ -54,7 +54,7 @@ function ContentIconPanel(props: iconLinksProps): JSX.Element
 const PanelContainer = styled.div`
     width: min(90%, 860px, calc(100vw - 28px));
     box-sizing: border-box;
-    margin: 1.25rem auto 0;
+    margin: 2rem auto 0;
 `
 
 const BetaCta = styled.a`

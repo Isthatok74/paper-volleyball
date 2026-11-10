@@ -24,6 +24,7 @@ function ContentHome(): JSX.Element
 // not necessary if video thumbnail has the game name: <GameTitle>PAPER VOLLEYBALL</GameTitle>
 function OverviewSection(): JSX.Element { return <>
     <div>
+        <TopSpacer />
         <YoutubeEmbed embedId="kU4L7DWgKIo" />
         <ContentIconPanel height="48px"/>
         <br/>
@@ -54,6 +55,10 @@ function DetailsSection(): JSX.Element {return <>
 //  letter-spacing: 6px;  /* Increase character spacing */
 //`
 // some formatting for this container
+const TopSpacer = styled.div`
+  height: 1.5rem;
+`
+
 const SectionDivider = styled.div`
   display: flex;
   align-items: center;
