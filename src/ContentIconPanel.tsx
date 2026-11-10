@@ -46,14 +46,6 @@ function ContentIconPanel(props: iconLinksProps): JSX.Element
               <IconListItem><ImageLink height={props.height} hover="Buy me a coffee!" image={Icons.iconCoffee} link="https://buymeacoffee.com/freegiftstudio"/></IconListItem>
             </IconList>
           </CtaGroup>
-
-          <CtaGroup>
-            <CtaHeading>Business inquiries</CtaHeading>
-            <CtaDescription>Get in touch by email</CtaDescription>
-            <IconList>
-              <IconListItem><ImageLink height={props.height} hover="Email me for business inquiries" image={Icons.iconEmail} link="mailto:papervolleyballdev@gmail.com"/></IconListItem>
-            </IconList>
-          </CtaGroup>
         </CtaGrid>
       </PanelContainer>
     );
@@ -146,7 +138,7 @@ const CtaGrid = styled.div`
     box-sizing: border-box;
     margin-top: 16px;
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 16px;
 
     @media (max-width: 700px) {
