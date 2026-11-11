@@ -1,17 +1,42 @@
-# Summary
+# Paper Volleyball website
 
-This is a draft, static website developed using React (TypeScript) which will be used to present information about and promote the Paper Volleyball game, which is planned to be released on Steam and Android/iOS.
+This is the React and TypeScript website for Paper Volleyball. It is published
+as a project site at <https://freegiftstudio.ca/paper-volleyball/>.
 
-# Deployment
+## Shared domain ownership
 
-## Testing
-To test the website locally, call `npm run dev` on the terminal from the project directory and open http://localhost:5173 to view it in your browser.\
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The `freegiftstudio.ca` domain root is owned and deployed by the shared Free
+Gift Studio GitHub Pages repository:
 
-## Publishing
-This website is configured to automatically publish on Github pages whenever a push is made to the main branch.\
-The built app should be placed in the `docs\` folder. As such, a batch script `.\build.bat` was written to automatically call `npm run build` and move the files into the `docs\` folder.
+<https://github.com/Isthatok74/isthatok74.github.io>
+
+That root repository owns the developer landing page, custom-domain `CNAME`,
+and root-level `app-ads.txt` used across the studio's projects. Do not add a
+separate `CNAME` or `app-ads.txt` to this repository. Changes to the developer
+landing page, domain configuration, or authorized-seller entries belong in the
+shared root repository.
+
+This repository remains responsible for the Paper Volleyball project page and
+build output beneath `/paper-volleyball/`. The Vite `base` setting must remain
+`/paper-volleyball/` so generated asset URLs work at that path.
+
+## Deployment
+
+### Testing
+
+Run `npm run dev` from the project directory and open
+<http://localhost:5173>. The page reloads when source files change.
+
+### Publishing
+
+GitHub Pages publishes this repository's `docs/` directory when the built
+output is pushed to `main`. On Windows, `build.bat` runs the production build
+and refreshes `docs/`. Commit source changes and regenerated `docs/` output
+together before pushing.
+
+The project page is served through the custom domain configured by the shared
+root repository; this repository does not independently configure
+`freegiftstudio.ca`.
 
 
 <details>
